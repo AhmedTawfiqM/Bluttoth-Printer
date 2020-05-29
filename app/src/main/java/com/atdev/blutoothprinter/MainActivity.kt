@@ -17,7 +17,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun printNow() {
         //1- Before ou Must Connect to Printer Tool and get the Bluetooth Mac Address
-        //2-
+        //2- then get Mac address of it to set it as a Argument .address. > openport(address)
+        //3-
         //Input the Bluetooth Mac Address, example:“00:19:0E:A0:04:E1
         val TscDll = TSCActivity()
         TscDll.openport("00:19:0E:A0:04:E1");
